@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a { 
+            color: pink;
+            text-decoration: none; /* remove o sublinhado dos links por padrão */
+        }
+
+        a:visited {
+            color: rgb(237, 135, 152);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active { 
+            color: rgb(231, 62, 91);
+        }
+
+        /* representando um pseudoelemento, adiciona algo após o texto. pode ser adicionado before também */
+        a::after {
+            content: ' [link]';
+            color: rgb(168, 168, 168);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+        <li><a href="https://www.linkedin.com/in/fernandakedouk/" target="_blank">LinkedIn</a></li>
+    </ul>
+</body>
+</html>

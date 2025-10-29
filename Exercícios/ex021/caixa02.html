@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #9FA3A6;
+        }
+
+        header {
+            background-color: #F2F2F2;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        #principal {
+            text-align: center;
+        }
+
+        nav {
+            background-color: #cdd8df;
+            text-align: center;
+            box-shadow: 2px 2px 1cqmax rgba(0, 0, 0, 0.356);
+        }
+
+        a {
+            color: #28465f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: #F2F2F2;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 2cqmax rgba(0, 0, 0, 0.46);
+            border-radius: 10px;
+        }
+        
+        article {
+            background-color: #e0e7eb;
+            box-shadow: 2px 2px 1cqmax rgba(0, 0, 0, 0.356);
+        }
+
+        article > aside {
+            background-color: #cdd8df;
+            width: 250px;
+            text-align: center;
+            outline: auto #636b737e;
+        }        
+
+        footer {
+            background-color: #00010D;
+            color: #F2F2F2;
+            text-align: center;
+            padding: 7px;
+            border-radius: 10px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="principal">Meu site</h1>
+        <nav>
+            <a href="https://google.com" target="_blank">Link |</a>
+            <a href="https://google.com" target="_blank">Link |</a>
+            <a href="https://google.com" target="_blank">Link |</a>
+            <a href="https://google.com" target="_blank">Link |</a>
+            <a href="https://google.com" target="_blank">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eligendi cupiditate placeat aut eum non voluptates, eos natus. Aliquid obcaecati saepe omnis ipsam dolor eveniet quos ut alias molestias ipsum.</p>
+        </section>
+        <section>
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A hic dolorum molestiae nemo aliquid quos exercitationem velit, alias asperiores eius eum repellat vel! Libero, sequi. Eligendi doloremque porro est totam!</p>
+                <aside>
+                    <p>Artigo escrito por Fulano da Silva.</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Notícia sobre o exterior</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque eaque distinctio voluptatibus. Consectetur, ad? Sapiente enim magni perspiciatis minus cum quaerat exercitationem incidunt nam consequatur, architecto corporis ducimus sit molestiae!</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Fernanda Kedouk</p>
+    </footer>
+</body>
+</html>
